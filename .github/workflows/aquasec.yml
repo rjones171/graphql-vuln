@@ -70,3 +70,4 @@ jobs:
               --aqua-secret "${{ secrets.AQUA_SECRET }}" \
               --artifact-path "saargondocker/graphql-vuln:${{ github.sha }}" 
 
+

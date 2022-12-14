@@ -68,6 +68,6 @@ jobs:
               --access-token "${{ secrets.GITHUB_TOKEN }}" \
               --aqua-key "${{ secrets.AQUA_KEY }}" \
               --aqua-secret "${{ secrets.AQUA_SECRET }}" \
-              --artifact-path "saargondocker/graphql-vuln:${{ github.sha }}" 
+              --artifact-path "saargondocker/graphql-vuln:${{ github.sha }}"  
 
  
